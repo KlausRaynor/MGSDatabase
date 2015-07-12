@@ -1,0 +1,135 @@
+body {
+	background-image: url("/images/wallpaper.jpg");
+	background-attachment: fixed;
+	background-position:center;
+	background-color: #DDDECC;
+	font-family: 'Michroma', sans-serif;
+}
+
+.container{
+		margin: 25px;
+		padding: 3px;
+		text-align:center;
+
+}
+.header{
+
+}
+.content {
+	padding: 10px;
+	box-shadow: inset 3px 3px 3px #999;
+	max-height: 500px;
+	overflow:auto;
+	display:inline-block;
+
+}
+.timeline .content, .about .content {
+	margin-top: 15px;
+}
+.content ul{
+text-align: left;
+font-size:150%;
+width:380px;
+display:inline-block;
+}
+
+.content p{
+	font-size:150%;
+	width:600px;
+
+}
+.footer {
+	
+}
+
+/* Homepage logo */
+#logo {
+	height:200px;
+	width:auto;
+	padding-bottom: 20px;
+}
+
+/*LET THE WORLD BE LOGO (KANJI on About Page) */
+#lettheworldbelogo{
+	position:absolute;
+	height:100%;
+	z-index: -1;
+}
+
+#oldsnake{
+	z-index:-2;
+	position:absolute;
+	left:0;
+	opacity:0.3;
+	float:left;
+}
+#logoHead{
+	width:500px;
+	height:auto;
+}
+
+fieldset:hover {
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+.timeline{
+	overflow:auto;
+}
+
+#timelineH2 {
+	font-size:300px;
+	left:0;
+	top:0;
+	position:fixed;
+	opacity:0.3;
+	z-index: -1;
+}
+
+.formTimeline{
+	width:700px;
+}
+legend{
+	font-size: 150%;
+}
+
+#navStyling {
+	position:absolute;
+	left:0;
+	padding:1px;
+	text-align: left;
+	display:inline-block;
+}
+.navigator {
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+.navigator li:hover {
+	background: rgba(153, 153, 153, 0.3);
+}
+
+#currentpage {
+	font-weight: bold;
+	border:1px solid #999;
+	border-radius: 2px;
+
+}
+
+
+.footNavigator {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.footNavigator li {
+	display:inline;
+}
+
+
